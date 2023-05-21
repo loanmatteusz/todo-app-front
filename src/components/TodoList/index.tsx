@@ -17,7 +17,7 @@ export const TodoList = (props: TodoListProps) => {
                     font-bold text-left p-2
                     xl:min-w-[1100px]
                     min-w-[600px]
-                    max-sm:min-w-[200px]
+                    max-sm:min-w-[300px]
                 `}>
                     Description
                 </th>
