@@ -4,7 +4,7 @@ interface TodoIconProps {
 
 export const TodoIcon = (props: TodoIconProps) => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-browser-check" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke={`${props.className ?? 'rgb(209 213 219 / var(--tw-text-opacity))'}`} fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-browser-check" width="36" height="36" viewBox="0 0 24 24" strokeWidth="1.5" stroke={`${props.className ?? 'rgb(209 213 219 / var(--tw-text-opacity))'}`} fill="none" strokeLinecap="round" strokeLinejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
             <path d="M4 8h16" />
