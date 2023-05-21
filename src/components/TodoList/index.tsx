@@ -14,10 +14,8 @@ export const TodoList = (props: TodoListProps) => {
         return (
             <tr>
                 <th className={`
-                    font-bold text-left p-2
-                    xl:min-w-[1100px]
-                    min-w-[600px]
-                    max-sm:min-w-[300px]
+                    w-full font-bold text-left p-2
+                    max-sm:w-full
                 `}>
                     Description
                 </th>
@@ -36,10 +34,7 @@ export const TodoList = (props: TodoListProps) => {
                 return (
                     <tr key={todo._id}>
                         <td className={`
-                            text-left p-2
-                            xl:min-w-[1100px]
-                            min-w-[600px]
-                            max-sm:min-w-[300px]
+                            w-full text-left p-2
                             ${todo.done === true ? 'text-gray-500 line-through' : ''}
                         `}>
                             {todo.description}
