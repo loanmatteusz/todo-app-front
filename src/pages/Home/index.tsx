@@ -4,7 +4,7 @@ import { Area, TodoForm, TodoList } from "../../components";
 import axios from "axios";
 
 const URL = process.env.API_URL as string;
-console.log({ URL })
+
 export const Home = () => {
 
     const [todoList, setTodoList] = useState<Todo[] | []>([]);
