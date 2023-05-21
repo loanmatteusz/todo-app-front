@@ -39,7 +39,7 @@ export const TodoList = (props: TodoListProps) => {
                             text-left p-2
                             xl:min-w-[1100px]
                             min-w-[600px]
-                            max-sm:min-w-[200px]
+                            max-sm:min-w-[300px]
                             ${todo.done === true ? 'text-gray-500 line-through' : ''}
                         `}>
                             {todo.description}
