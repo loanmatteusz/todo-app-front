@@ -20,7 +20,7 @@ export const TodoList = (props: TodoListProps) => {
                     Description
                 </th>
                 <th className={`
-                    w-full font-bold text-left
+                    w-full font-bold text-left p-2
                 `}>
                     Actions
                 </th>
