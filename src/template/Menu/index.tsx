@@ -9,6 +9,7 @@ export const Menu = () => {
             rounded-b-md
             px-6 py-2 gap-6
             items-end
+            max-sm:justify-center
         `}>
             <div className="flex items-end">
                 <TodoIcon />
